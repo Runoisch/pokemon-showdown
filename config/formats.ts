@@ -2670,6 +2670,13 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['ND OU', 'ND UUBL', 'Drizzle', 'Drought', 'Light Clay', 'Slowbronite'],
 	},
 	{
+		name: "[Gen 8] National Dex RU",
+		mod: 'gen8',
+		searchShow: false,
+		ruleset: ['[Gen 8] National Dex UU'],
+		banlist: ['ND UU', 'ND RUBL'],
+	},
+	{
 		name: "[Gen 8] National Dex Monotype",
 		mod: 'gen8',
 		searchShow: false,
@@ -2683,6 +2690,25 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 			'Power Construct', 'Moody', 'Shadow Tag', 'Damp Rock', 'Focus Band', 'King\'s Rock', 'Quick Claw', 'Razor Fang', 'Smooth Rock', 'Terrain Extender', 'Baton Pass',
 		],
 	},
+	{
+		name: "[Gen 8] National Dex Doubles OU",
+		mod: 'gen8',
+		searchShow: false,
+		gameType: 'doubles',
+		ruleset: ['Standard Doubles', 'NatDex Mod', 'Evasion Abilities Clause'],
+		banlist: [
+			'Arceus', 'Calyrex-Ice', 'Calyrex-Shadow', 'Dialga', 'Eternatus', 'Gengar-Mega', 'Giratina', 'Giratina-Origin','Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-White', 'Lugia', 'Lunala', 'Magearna', 'Melmetal', 'Mewtwo', 
+			'Necrozma-Dawn-Wings','Necrozma-Dusk-Mane', 'Necrozma-Ultra', 'Palkia', 'Rayquaza', 'Reshiram', 'Solgaleo', 'Venusaur', 'Xerneas', 'Yveltal', 'Zacian', 'Zacian-Crowned', 'Zamazenta', 'Zamazenta-Crowned', 'Zekrom', 'Zygarde-50%', 
+			'Zygarde-Complete','Commander', 'Power Construct', 'Shadow Tag', 'Coaching', 'Dark Void', 'Swagger',
+		],
+	}, 
+	{
+		name: "[Gen 8] National Dex AG",
+		mod: 'gen8dlc1',
+		searchShow: false,
+		ruleset: ['Standard AG','NatDex Mod'],
+		unbanlist: ['Absol','Aerodactyl','Aggron','Altaria','Amaura','Anorith','Archen','Archeops','Armaldo','Aron','Articuno','Audino','Aurorus','Azelf','Bagon','Beldum','Blacephalon','Blaziken','Buzzwole','Carbink','Carracosta','Celesteela','Combusken','Cradily','Cresselia','Crobat','Cryogonal','Dialga','Diancie','Dragonair','Dragonite','Dratini','Electabuzz','Electivire','Elekid','Entei','Gabite','Garchomp','Genesect','Gible','Giratina','Golbat','Groudon','Grovyle','Guzzlord','Heatran','Hooh','Jynx','Kabuto','Kabutops','Kartana','Kyogre','Lairon','Landorus','Landorus-Therian','Latias','Latios','Lileep','Lugia','Magby','Magmar','Magmortar','Marshtomp','Mesprit','Metagross','Metang','Moltres','Mudkip','Naganadel','Nidoking','Nidoqueen','Nidoran-F','Nidoran-M','Nidorina','Nidorino','Nihilego','Omanyte','Omastar','Palkia','Pheromosa','Poipole','Raikou','Rayquaza','Regice','Regigigas','Regirock','Registeel','Salamence','Sceptile','Sealeo','Shelgon','Smoochum','Spheal','Spiritomb','Stakataka','Suicune','Swablu','Swampert','Tapu Bulu','Tapu Fini','Tapu Koko','Tapu Lele','Thundurus','Thundurus-Therian','Tirtouga','Torchic','Tornadus','Tornadus-Therian','Treecko','Tyrantrum','Tyrunt','Uxie','Victini','Volcanion','Walrein','Xerneas','Xurkitree','Yveltal','Zapdos','Zubat','Zygarde','Zygarde-10%'],
+	}, // To any onlooker, yes I'm aware there is a \data\mods\gen8dlc1\formats-data.ts file that I can edit to shorten this code. I felt it was unnessesary to do so because it would've required me to take additional time to trace the tier placements for each Pokemon listed for a mod that can't even be used for challenge codes to begin with. 
 
 	// Randomized Format Spotlight
 	///////////////////////////////////////////////////////////////////
